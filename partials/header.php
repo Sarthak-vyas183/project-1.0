@@ -1,5 +1,5 @@
 <?php
-// include("../backend/login.php");
+
  session_start();
 
  if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
@@ -34,13 +34,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="http://localhost/fourm2/index.php">Home</a>
+          <a class="nav-link" aria-current="page" href="./index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link enable" aria-disabled="true" href="http://localhost/fourm2/about.php">About</a>
+          <a class="nav-link enable" aria-disabled="true" href="./about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link enable" aria-disabled="true" href="http://localhost/fourm2/service.php">Services</a>
+          <a class="nav-link enable" aria-disabled="true" href="./service.php">Services</a>
         </li>
         
         <li class="nav-item">
@@ -55,9 +55,9 @@
         </a>
       
         <ul class="dropdown-menu">
-          <li id="As-user"><a class="dropdown-item" href="http://localhost/fourm2/singUp/user.php">As User</a></li>
-          <li id="As-professional"><a class="dropdown-item" href="http://localhost/fourm2/singUp/labor.php">As Professional</a></li>
-          <li id="As-Contractor"><a class="dropdown-item" href="http://localhost/fourm2/singUp/contractor.php">As Contractor</a></li>
+          <li id="As-user"><a class="dropdown-item" href="./singUp/user.php">As User</a></li>
+          <li id="As-professional"><a class="dropdown-item" href="./singUp/labor.php">As Professional</a></li>
+          <li id="As-Contractor"><a class="dropdown-item" href="./singUp/contractor.php">As Contractor</a></li>
         </ul>
       </div>
         <button class="btn btn-outline-info me-2 loginbtn" type="button" id="drop-btn" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-whatever="@getbootstrap">
