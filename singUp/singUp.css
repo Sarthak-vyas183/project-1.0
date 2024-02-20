@@ -1,0 +1,183 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.singUp-container {
+    width: 70vw;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.singUp-span {
+    position: relative;
+    left: 360px;
+    display: block;
+    
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ .input-form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #4caf50;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.labor-main-container { 
+    position: absolute;
+    top: 10vh;
+    
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.labor-h2 {
+    text-align: center;
+    color: #333;
+}
+
+.labor-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.labor-form label {
+    margin-bottom: 8px;
+}
+
+.labor-form input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.skillname {
+    display: none;
+}
+
+select[name="skilled"]:checked + .skillname {
+    display: block;
+}
+
+.labor-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.labor-form button:hover {
+    background-color: #45a049;
+}
+#skillname {
+    display: none;
+}
+/* contractor css strat */
+
+.con-container {
+    position: relative;
+    top: 15vh;
+    bottom: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.con-container h2{
+    text-align: center;
+    color: #333;
+}
+
+.con-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.con-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.con-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.con-container button:hover {
+    background-color: #45a049;
+}
+
+/* contractor css end */
