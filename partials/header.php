@@ -42,6 +42,9 @@
         <li class="nav-item">
           <a class="nav-link enable" aria-disabled="true" href="./service.php">Services</a>
         </li>
+        <li class="nav-item welcome">
+          <a class="nav-link enable" aria-disabled="true" href="./welcome.php">Welcome</a>
+        </li>
         
         <li class="nav-item">
           <a class="nav-link enable" aria-disabled="true">contact</a>
